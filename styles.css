@@ -12,9 +12,11 @@ img{
     max-width: 80%;
     margin-bottom: min(5vw, 2rem);
 }
-.contact{
+.contact,
+a{
     font-family:'Gill Sans', sans-serif;
     font-size: min(4vw, 2rem);
     color: rgb(223, 189, 184);
     text-align: center;
+    text-decoration: none;
 }
