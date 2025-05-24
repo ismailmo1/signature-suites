@@ -13,7 +13,7 @@ img{
     margin-bottom: min(5vw, 2rem);
 }
 .contact{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', sans-serif;
     font-size: min(4vw, 2rem);
     color: rgb(223, 189, 184);
     text-align: center;
