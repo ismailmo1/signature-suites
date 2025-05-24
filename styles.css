@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('logo.png') center no-repeat;
+    /* make background size a maximum of 800px but scale otherwise */
+    background-size:min(800px, 100vw) auto;
+    background-color: rgb(63, 38, 95);
+    font-family: Arial, sans-serif;
+}
