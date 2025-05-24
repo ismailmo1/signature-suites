@@ -1,12 +1,20 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: url('logo.png') center no-repeat;
-    /* make background size a maximum of 800px but scale otherwise */
-    background-size:min(800px, 100vw) auto;
     background-color: rgb(63, 38, 95);
     font-family: Arial, sans-serif;
+}
+img{
+    max-width: 80%;
+    margin-bottom: min(5vw, 2rem);
+}
+.contact{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: min(4vw, 2rem);
+    color: rgb(223, 189, 184);
+    text-align: center;
 }
