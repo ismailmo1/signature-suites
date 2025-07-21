@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@theme {
+  --color-signature-900: rgb(63, 38, 95);
+  --color-signature-800: rgb(93, 66, 128);
+}
