@@ -10,82 +10,282 @@
 
 <body class="min-h-screen">
     <!-- ensure the nav bar is always at the top -->
-    <div class="navbar bg-signature-900 shadow-sm sticky top-0 z-50">
-        <div class="flex-1">
-            <a class="btn btn-ghost text-xl">Signature Suites</a>
-        </div>
-        <div class="flex-none space-x-5 m-5">
+    <div class="navbar bg-signature-900 shadow-sm sticky justify-end">
+        <div class="flex-none space-x-2 m-1.5 ">
             <button class="btn btn-square btn-ghost">
                 <a href="https://www.instagram.com/signaturesuitesbradford/">
-                    <img src="./images/instagram.png" alt="Menu Icon" class="h-10 w-10">
+                    <img src="./images/instagram.png" alt="instagram" class="h-auto">
+                </a>
+            </button>
+            <button class="btn btn-square btn-ghost">
+                <a href="https://www.tiktok.com/@signaturesuites_">
+                    <img src="./images/tik-tok.png" alt="tik-tok" class="h-auto">
+                </a>
+            </button>
+            <button class="btn btn-square btn-ghost">
+                <a href="https://wa.me/447870635049">
+                    <img src="./images/whatsapp.png" alt="whatsapp" class="h-auto">
                 </a>
             </button>
             <button class="btn btn-square btn-ghost">
                 <a href="https://maps.app.goo.gl/YRxFG8tSZTTBrV3y8">
-                    <img src="./images/google-maps.png" alt="Menu Icon" class="h-10 w-10">
+                    <img src="./images/google-maps.png" alt="google-maps" class="h-auto">
                 </a>
             </button>
         </div>
-
     </div>
     <main class="relative flex flex-col items-center justify-center bg-signature-900 text-pink-100
         font-sans">
         <img src="logo.png" alt="Signature Suites Logo" class="max-h-50">
-        <div role="alert" class="alert alert-info alert-outline mb-2 w-3/4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                class="h-6 w-6 shrink-0 stroke-current">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-            </svg>
-            <span>Available now for hire - hourly bookings available!</span>
+        <div role="alert" class="alert alert-info alert-outline mb-2 w-3/4 flex flex-col items-center">
+            <div class="flex items-center justify-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    class="h-6 w-6 shrink-0 stroke-current">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span>Available now for hire - hourly bookings available!</span>
+            </div>
         </div>
-
-        <div class="carousel w-auto max-h-[50vh]">
-            <div class="carousel-item w-auto h-[50vh]">
-                <img src="./images/hall_1.jpeg" class="w-auto h-full object-cover" />
-            </div>
-            <div class="carousel-item w-auto h-[50vh]">
-                <img src="./images/hall_2.jpeg" class="w-auto h-full object-cover" />
-            </div>
-            <div class="carousel-item w-auto h-[50vh]">
-                <img src="./images/hall_3.jpeg" class="w-auto h-full object-cover" />
-            </div>
-            <div class="carousel-item w-auto h-[50vh]">
-                <img src="./images/hall_4.jpeg" class="w-auto h-full object-cover" />
-            </div>
-            <div class="carousel-item w-auto h-[50vh]">
-                <img src="./images/hall_5.jpeg" class="w-auto h-full object-cover" />
+        <div class="m-3">
+            <div class="carousel w-auto max-h-[50vh]">
+                <div class="carousel-item w-auto h-[50vh]">
+                    <img src="./images/hall_pics/hall_1.jpeg"
+                        class="w-auto h-full object-cover border-signature-800 border" />
+                </div>
+                <div class="carousel-item w-auto h-[50vh]">
+                    <img src="./images/hall_pics/hall_2.jpeg"
+                        class="w-auto h-full object-cover border-signature-800 border" />
+                </div>
+                <div class="carousel-item w-auto h-[50vh]">
+                    <img src="./images/hall_pics/hall_3.jpeg"
+                        class="w-auto h-full object-cover border-signature-800 border" />
+                </div>
+                <div class="carousel-item w-auto h-[50vh]">
+                    <img src="./images/hall_pics/hall_4.jpeg"
+                        class="w-auto h-full object-cover border-signature-800 border" />
+                </div>
+                <div class="carousel-item w-auto h-[50vh]">
+                    <img src="./images/hall_pics/hall_5.jpeg"
+                        class="w-auto h-full object-cover border-signature-800 border" />
+                </div>
+                <div class="carousel-item w-auto h-[50vh]">
+                    <img src="./images/hall_pics/hall_6.jpeg"
+                        class="w-auto h-full object-cover border-signature-800 border" />
+                </div>
+                <div class="carousel-item w-auto h-[50vh]">
+                    <img src="./images/hall_pics/hall_8.jpeg"
+                        class="w-auto h-full object-cover border-signature-800 border" />
+                </div>
+                <div class="carousel-item w-auto h-[50vh]">
+                    <img src="./images/hall_pics/hall_9.jpeg"
+                        class="w-auto h-full object-cover border-signature-800 border" />
+                </div>
+                <div class="carousel-item w-auto h-[50vh]">
+                    <img src="./images/hall_pics/hall_10.jpeg"
+                        class="w-auto h-full object-cover border-signature-800 border" />
+                </div>
+                <div class="carousel-item w-auto h-[50vh]">
+                    <img src="./images/hall_pics/hall_11.jpeg"
+                        class="w-auto h-full object-cover border-signature-800 border" />
+                </div>
+                <div class="carousel-item w-auto h-[50vh]">
+                    <img src="./images/hall_pics/hall_12.jpeg"
+                        class="w-auto h-full object-cover border-signature-800 border" />
+                </div>
             </div>
         </div>
 
         <div class="divider w-3/4 self-center"></div>
         <div id="address" class="flex flex-col items-center">
-            <p>Northcote Rd, Bradford BD2 4QH</p>
-            <p>Contact: 07870 635049</p>
+            <p class="flex items-center gap-2">
+                <img src="./images/location.png" alt="Location Icon" class="h-5 w-5 filter invert brightness-0" />
+                Northcote Rd, Bradford BD2 4QH
+            </p>
+            <p class="flex items-center gap-2">
+                <img src="./images/telephone.png" alt="Location Icon" class="h-5 w-5 filter invert brightness-0" />
+                Contact: 07870635049
+            </p>
         </div>
+        <div class="divider w-3/4 self-center"></div>
         <div class="details flex flex-col items-center">
-            <div class="divider w-3/4 self-center"></div>
             <p class="mb-1">2 halls - 250 guests</p>
             <p class="mb-2">Suitable for all types of events, including:</p>
-            <ul class="event-list flex flex-row flex-wrap justify-center gap-2 w-full max-w-2xl">
-                <li class="flex-1text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2 font-semibold">Weddings
+            <ul class="flex flex-row flex-wrap justify-center gap-2 w-full max-w-2xl">
+                <li class="text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2">Weddings
                 </li>
-                <li class="flex-1text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2 font-semibold">Mehndis
+                <li class="text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2">Mehndis
                 </li>
-                <li class="flex-1text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2 font-semibold">Parties
+                <li class="text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2">Parties
                 </li>
-                <li class="flex-1text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2 font-semibold">Meetings
+                <li class="text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2">Meetings
                 </li>
-                <li class="flex-1text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2 font-semibold">Family
+                <li class="text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2">Family
                     events
                 </li>
-                <li class="flex-1text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2 font-semibold">Fitness
+                <li class="text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2">Fitness
                     Classes
                 </li>
-                <li class="flex-1text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2 font-semibold">Yoga
-                <li class="flex-1text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2 font-semibold">Pilates
+                <li class="text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2">Yoga
+                <li class="text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2">Pilates
+                </li>
+                <li class="text-center bg-signature-800 bg-opacity-10 rounded px-4 py-2">Women's
+                    only events
                 </li>
             </ul>
+        </div>
+        <span class="text-2xl justify-start mt-5">Testimonials</span>
+
+        <div class="flex flex-row flex-wrap justify-center items-center align-middle m-5">
+            <div class="card w-96 border shadow-xl m-3">
+                <div class="card-body">
+                    <p class="text-sm italic">"We had our wedding reception at Signature Suites and it was perfect! The
+                        staff
+                        were so helpful and the venue looked stunning. Highly recommend!"</p>
+                    <div class="card-actions justify-end">
+                        <div class="badge badge-outline">Aisha & Ahmed</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-96 border shadow-xl m-3">
+                <div class="card-body">
+                    <p class="text-sm italic">"The venue was perfect for our family gathering. Spacious, clean, and well
+                        maintained. Will definitely book again!"</p>
+                    <div class="card-actions justify-end">
+                        <div class="badge badge-outline">Fatima & Family</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-row flex-wrap justify-center m-5  border border-signature-800 rounded-lg">
+            <span class="text-2xl justify-start mt-5 mb-1">FAQ</span>
+            <div tabindex="0" class="collapse collapse-arrow ">
+                <div class="collapse-title font-semibold">How do I book the venue?</div>
+                <div class="collapse-content text-sm">
+                    To book Signature Suites, simply get in touch with us to check availability and complete a
+                    Venue
+                    Hire Form. A refundable deposit is required to secure your date. We're happy to answer any
+                    questions
+                    before you commit.
+
+                    📞 Call us on 07870 635049
+                    📲 Follow us on Instagram (@signaturesuitesbfd) and TikTok (@signaturesuites_)
+                </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-arrow ">
+                <div class="collapse-title font-semibold">How much does it cost to hire the venue?
+                </div>
+                <div class="collapse-content text-sm">
+                    We offer some of the most competitive rates in and around Bradford. Our halls can be hired
+                    by
+                    the
+                    hour, and we’ll always do our best to meet your budget. Get in touch for a personalised
+                    quote.
+                </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-arrow ">
+                <div class="collapse-title font-semibold"> What’s included in the venue hire?
+                </div>
+                <div class="collapse-content text-sm">
+                    <ul>
+                        <li>Access to the venue for set-up and pack-down</li>
+                        <li>Use of one or both floors (depending on your booking)</li>
+                        <li>Tables and chairs with covers</li>
+                        <li>Stage (you are welcome to decorate it)</li>
+                        <li>Kitchen area for your use</li>
+                        <li>Private parking on site</li>
+                    </ul>
+                </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-arrow ">
+                <div class="collapse-title font-semibold">What is the capacity?</div>
+                <div class="collapse-content text-sm">
+                    <ul>
+                        <li>Top floor: Up to 120 guests</li>
+                        <li>First floor: Ideal for smaller parties and gatherings up to 80 guests.</li>
+                    </ul>
+                    Our venue is especially suitable for birthdays, baby showers, charity events, family
+                    functions,
+                    business events, graduations and fitness classes.
+                </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-arrow ">
+                <div class="collapse-title font-semibold">Can I view the venue before booking?</div>
+                <div class="collapse-content text-sm">
+                    Yes, we welcome all potential guests to come and see the space before booking. Just give us
+                    a
+                    call
+                    to arrange a viewing.
+                </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-arrow ">
+                <div class="collapse-title font-semibold">What is your cancellation policy?
+                </div>
+                <div class="collapse-content text-sm">
+                    Cancellations must be made at least 10 days before your event. Unfortunately, no refund will
+                    be
+                    given for cancellations made within 10 days of the confirmed date.
+
+                </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-arrow ">
+                <div class="collapse-title font-semibold">
+                    Can I bring my own food or catering?
+
+                </div>
+                <div class="collapse-content text-sm">
+                    Yes. We do not provide catering, so you are free to bring your own food or hire external
+                    caterers.
+
+                </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-arrow ">
+                <div class="collapse-title font-semibold">
+                    Are there any restrictions on what we can do at the venue?
+
+                </div>
+                <div class="collapse-content text-sm">
+                    Yes, to ensure everyone’s safety and comfort:
+                    <ul>
+                        <li>No alcohol is allowed on the premises</li>
+                        <li>No smoking inside or on-site</li>
+                        <li>No illegal, dangerous, or inappropriate activities</li>
+                        <li>Children must be supervised at all times</li>
+                    </ul>
+                </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-arrow ">
+                <div class="collapse-title font-semibold">
+                    Is there parking available?
+                </div>
+                <div class="collapse-content text-sm">
+                    Yes, we have private on-site parking for you and your guests.
+                </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-arrow ">
+                <div class="collapse-title font-semibold">
+                    Do you provide decoration or set-up services?
+                </div>
+                <div class="collapse-content text-sm">
+                    We do not provide complete decoration services but can provide table accessories, chair and
+                    table
+                    covers. Hirers are welcome to decorate the stage and tables as you wish. Access for set-up
+                    and
+                    pack-down can be discussed when booking.
+
+                </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-arrow ">
+                <div class="collapse-title font-semibold">
+                    Do I need any licences or insurance for my event?
+                </div>
+                <div class="collapse-content text-sm">
+                    You may need to arrange your own licences for certain types of entertainment or music.
+                    Additionally,
+                    insurance must be secured by yourselves for any entertainment such as bouncy castles & food
+                    stations. It is your responsibility to check this based on the nature of your event.
+                </div>
+            </div>
         </div>
         <div class="divider w-3/4 self-center"></div>
     </main>
