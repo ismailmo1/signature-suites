@@ -36,7 +36,7 @@
     </div>
     <main class="relative flex flex-col items-center justify-center bg-signature-900 text-pink-100
         font-sans">
-        <img src="logo.png" alt="Signature Suites Logo" class="max-h-50">
+        <img src="./images/logo.png" alt="Signature Suites Logo" class="max-h-50">
         <div role="alert" class="alert alert-info alert-outline mb-2 w-3/4 flex flex-col items-center">
             <div class="flex items-center justify-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -156,6 +156,33 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- create a form with name email and message input -->
+        <div class="divider w-3/4 self-center m-5"></div>
+        <div class="flex flex-col items-center">
+            <span class="text-2xl justify-start mt-5 mb-1">Contact Us</span>
+            <form class="m-5 max-w-xl" action="https://formspree.io/f/mwpqbkyv" method="POST">
+                <label class="label">
+                    <span class="label-text text-sm">Name</span>
+                </label>
+                <input type="text" name="name" placeholder="Your Name"
+                    class="input input-bordered w-full mb-3 placeholder:text-gray-400" required>
+                <label class="label">
+                    <span class="label-text text-sm">Email</span>
+                </label>
+                <input type="email" name="email" placeholder="Your Email"
+                    class="input input-bordered w-full mb-3 placeholder:text-gray-400" required>
+                <label class="label">
+                    <span class="label-text text-sm">Booking Date</span>
+                </label>
+                <input type="date" name="date" class="input input-bordered w-full mb-3 text-gray-400" required>
+                <label class="label">
+                    <span class="label-text text-sm">Message</span>
+                </label>
+                <textarea name="message" placeholder="Your Message"
+                    class="textarea textarea-bordered w-full mb-3 placeholder:text-gray-400" required></textarea>
+                <button type="submit" class="btn w-full">Send Message</button>
+            </form>
         </div>
         <div class="flex flex-row flex-wrap justify-center m-5  border border-signature-800 rounded-lg">
             <span class="text-2xl justify-start mt-5 mb-1">FAQ</span>
